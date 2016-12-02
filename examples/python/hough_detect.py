@@ -4,7 +4,7 @@ from __future__ import print_function
 from PIL import Image
 import skimage.color
 from skimage.transform import rescale
-from skimage.filter import gaussian_filter
+from skimage.filters import gaussian
 from skimage import draw
 import numpy as np
 import os
@@ -85,7 +85,7 @@ def evaluate(im_idx, im, lock):
                                      min_prob_threshold)
       #with open('pmap_%d_%s.pkl' % (im_idx, SAVE_PREF), 'w') as f:
       #  pickle.dump(probmap, f)
-      probmap = gaussian_filter(probmap, 3.)
+      probmap = gaussian(probmap, 3.)
       if VISUALIZATION:
         print("Maximum: ", probmap.max())
         plt.imshow(probmap)
