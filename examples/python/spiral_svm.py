@@ -8,7 +8,6 @@ Created on Sun Apr 06 18:42:59 2014
 
 from sklearn import svm
 from sklearn import grid_search
-import tmpfertilized as f
 import matplotlib.pylab as plt
 import matplotlib
 import matplotlib.cm as cm
