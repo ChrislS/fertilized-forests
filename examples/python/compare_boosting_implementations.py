@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # Author: Christian Diller
 # Compares the performance of the fertilized forests boosting implementations
 # to the opencv and scikit learn implementations

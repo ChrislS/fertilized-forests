@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Author: Christoph Lassner
 # Platform independent serialization.

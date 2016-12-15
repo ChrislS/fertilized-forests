@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #%% Imports
 from PIL import Image
 import skimage.color
